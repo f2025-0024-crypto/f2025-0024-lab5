@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int c,f=1,n;
+    cout<<"Enter a number: ";
+    cin>>n;
+    for(c=1;c<=n;c=c+1)
+    {
+        
+        f=f*c;
+    }
+    cout<<"Factorial: "<<f;
+    return 0;
+}
